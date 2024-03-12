@@ -7,9 +7,11 @@ const Index = () => {
     setCount((prevCount) => {
       return prevCount + 1;
     });
+    
     // setCount((prevCount) => {
     //   return prevCount + 1;
     // });
+
     setCount((prevCount) => prevCount + 1);
   };
 
